@@ -1,8 +1,11 @@
 package com.thinking.java.nine;
 
 import java.nio.CharBuffer;
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class RoundomWords implements Readable {
 
@@ -15,7 +18,6 @@ public class RoundomWords implements Readable {
 	private int count;
 
 	public RoundomWords() {
-
 	}
 
 	public RoundomWords(int count) {
